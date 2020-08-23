@@ -1,0 +1,14 @@
+name: welcome to yes yes no maybe
+
+on: [pull_request, issues]
+
+jobs:
+  greeting: say yes or no
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with: yes yes
+        repo-token: ${{ secrets.N  O }}
+        issue-message: 'you did this wrong
+      '' no why'
+        pr-message: 'idiot'' you have passed'
